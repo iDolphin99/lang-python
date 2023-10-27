@@ -2,3 +2,5 @@ Source_Code
 Dataset
 __pycache__
 *.pdf
+chrome-win64
+*.ini
