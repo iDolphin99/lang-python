@@ -16,7 +16,7 @@ pyautogui.alert('자동화 시작합니다...', timeout=1000)
 # win + tab 단축키를 통해 열려있는 모든 창들 중 Chrome browser icon 이미지를 이용하여 접근 
 pyautogui.hotkey('win', 'tab')
 time.sleep(3)
-coordinate = pyautogui.locateOnScreen('./chromeicon.png')
+coordinate = pyautogui.locateOnScreen('./Python Programming/chromeicon.png')
 pyautogui.moveTo(coordinate, duration=1)
 pyautogui.click()
 
