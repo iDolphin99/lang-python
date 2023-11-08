@@ -6,9 +6,9 @@ driver = webdriver.Chrome() # there is no needs to download chrome driver direct
 
 driver.get('https://klas.kw.ac.kr/')
 element = driver.find_element(By.ID, "loginId") 
-element.send_keys('2018204094')     # put your id 
+element.send_keys('')     # put your id 
 element = driver.find_element(By.ID, "loginPwd")  
-element.send_keys('Gluon0824@kw\n') # put your passwd 
+element.send_keys('\n') # put your passwd 
 
 # iframe tag를 찾아 접근 후 switch_to 함수를 통해 들어가야 함 
 iframe = driver.find_element(By.TAG_NAME, 'iframe')

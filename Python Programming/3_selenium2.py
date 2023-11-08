@@ -7,8 +7,8 @@ driver = webdriver.Chrome()
 
 driver.get('https://klas.kw.ac.kr/')
 element = driver.find_element(By.ID, "loginId") 
-element.send_keys('2018204094')     # put your id 
+element.send_keys('')     # put your id 
 element = driver.find_element(By.ID, "loginPwd")  
-element.send_keys('Gluon0824@kw\n') # put your passwd 
+element.send_keys('\n') # put your passwd 
 
 driver.close()
