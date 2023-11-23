@@ -1,7 +1,8 @@
-Source_Code
+Lecture Code Original
 Dataset
 __pycache__
 *.pdf
 chrome-win64
 *.ini
 *.png
+sample_imgs
